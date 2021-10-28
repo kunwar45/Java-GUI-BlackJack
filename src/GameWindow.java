@@ -529,6 +529,8 @@ public class GameWindow extends JFrame implements ActionListener{
         progressFrame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
         progressFrame.setSize(600, 500); // set frame size
         progressFrame.setVisible(true); // display frame
+
+        this.dispose();
         break;
       case "Back":
         LoginWindow loginFrame = new LoginWindow(); // create LabelFrame
